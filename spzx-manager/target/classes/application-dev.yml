@@ -1,0 +1,39 @@
+server:
+  port: 8501
+
+# 配置数据库连接信息
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_spzx?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  # Redis的相关配置
+  data:
+    redis:
+      host: localhost
+      port: 6379
+#  password: 1234
+  servler:
+    multipart:
+      max-file-size: 10MB # 上传文件最大值
+      max-request-size: 10MB # 上传请求的最大值
+
+# mybatis的配置
+mybatis:
+  config-location: classpath:/mybatis-config.xml
+  mapper-locations: classpath:/mapper/*/*.xml
+
+# 自定义配置
+spzx:
+  auth:
+    noAuthUrls:
+      - /admin/system/index/login
+      - /admin/system/index/generateValidateCode
+      - /doc.html/**
+  minio:
+    endpointUrl: http://127.0.0.1:9000
+    accessKey: minioadmin
+    secreKey: minioadmin
+    bucketName: spzx-bucket

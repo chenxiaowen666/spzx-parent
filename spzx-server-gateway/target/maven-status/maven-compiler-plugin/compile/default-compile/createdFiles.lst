@@ -1,0 +1,3 @@
+com\atguigu\spzx\gateway\config\RedisConfig.class
+com\atguigu\spzx\gateway\filter\AuthGlobalFilter.class
+com\atguigu\spzx\gateway\GatewayApplication.class
