@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd99dbd3-b1fd-470e-8a4d-5b9b6ffb7be0" name="Changes" comment="" />
+    <list default="true" id="dd99dbd3-b1fd-470e-8a4d-5b9b6ffb7be0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chenxiaowen666"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chenxiaowen666/spzx-mall.git",
+    "accountId": "69563b45-b8a5-490e-863e-f89a8bec1feb"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -41,59 +58,61 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2rqNqB5cuOOHysFeAWYPFDctKSB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.commom-service [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-service [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-util [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-util [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-util [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.service-order-client [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.service-order-client [verify].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.service-pay [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.service-pay [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.service-product-client [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-common [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-common [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-manager [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-manager [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-manager [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-model [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-model [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-model [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-parent [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-parent [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spzx-parent [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CartApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ManagerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.OrderApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.PayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ProductApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/01_MyFile/project/spzx-parent/spzx-service/service-pay/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.240625&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.22587067&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.commom-service [install].executor": "Run",
+    "Maven.common-service [install].executor": "Run",
+    "Maven.common-util [clean].executor": "Run",
+    "Maven.common-util [install].executor": "Run",
+    "Maven.common-util [package].executor": "Run",
+    "Maven.service-order-client [install].executor": "Run",
+    "Maven.service-order-client [verify].executor": "Run",
+    "Maven.service-pay [clean].executor": "Run",
+    "Maven.service-pay [install].executor": "Run",
+    "Maven.service-product-client [install].executor": "Run",
+    "Maven.spzx-common [install].executor": "Run",
+    "Maven.spzx-common [package].executor": "Run",
+    "Maven.spzx-manager [clean].executor": "Run",
+    "Maven.spzx-manager [install].executor": "Run",
+    "Maven.spzx-manager [package].executor": "Run",
+    "Maven.spzx-model [clean].executor": "Run",
+    "Maven.spzx-model [install].executor": "Run",
+    "Maven.spzx-model [package].executor": "Run",
+    "Maven.spzx-parent [clean].executor": "Run",
+    "Maven.spzx-parent [install].executor": "Run",
+    "Maven.spzx-parent [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CartApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.ManagerApplication.executor": "Run",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.PayApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
+    "Spring Boot.UserApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/01_MyFile/project/spzx-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.240625",
+    "project.structure.side.proportion": "0.22587067",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -248,10 +267,22 @@
       <workItem from="1737746681771" duration="23727000" />
       <workItem from="1737840113983" duration="2333000" />
       <workItem from="1738687725670" duration="8880000" />
+      <workItem from="1738893100447" duration="1124000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
